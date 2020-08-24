@@ -12,6 +12,9 @@ quotes:Quote[]=[
   new Quote(3,'Sipimplicity is the ultimate sophistication','by Leonardo Davinci'),
   new Quote(4,'What we think we become','by Buddha'),
 ];
+toggleDetails(index){
+  this.quotes[index].showDescription = !this.quotes[index].showDescription;
+}
   constructor() { }
 
   ngOnInit(): void {
