@@ -30,6 +30,12 @@ deleteQuote(isComplete, index){
     }
   }
 }
+addNewQuote(quote){
+  let quoteLength= this.quotes.length;
+  quote.id = quoteLength+1;
+  quote.publishDate = new Date(quote.publishDate)
+  this.quotes.push(quote)
+}
   constructor() { }
 
   ngOnInit(): void {
