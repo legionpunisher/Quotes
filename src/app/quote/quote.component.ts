@@ -7,10 +7,10 @@ import {Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
 quotes:Quote[]=[
-  {id:1,name:'Happiness depends upon ourselves'},
-  {id:2,name:'Everything you can imagine is real'},
-  {id:3,name:'Sipimplicity is the ultimate sophistication'},
-  {id:4,name:'What we think we become',},
+  {id:1,name:'Happiness depends upon ourselves',description:'by Aristole'},
+  {id:2,name:'Everything you can imagine is real',description:'by Pablo Picasso'},
+  {id:3,name:'Sipimplicity is the ultimate sophistication',description:'by Leonardo Davinci'},
+  {id:4,name:'What we think we become',description:'by Buddha'},
 ];
   constructor() { }
 
